@@ -1,0 +1,515 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+/* navigation bar */
+
+.navbar {
+
+    color: white;
+    background-color: rgba(8, 6, 24, 1);
+    width: 1440px;
+    height: 62px;
+    margin: 0px 44px;
+}
+
+.navsec {
+
+    background-color: rgba(8, 6, 24, 1);
+    height: 30px;
+    width: 1204px;
+    display: grid;
+    grid-template-columns: 600px 700px;
+    padding: 16px 8px;
+    gap: 5px;
+
+}
+
+.navbar h3 {
+
+    padding-left: 165px;
+    font-size: 25px;
+    background-color: rgba(8, 6, 24, 1);;
+}
+
+.Me {
+    color: orange;
+}
+
+
+.nav-grid {
+    background-color: rgba(8, 6, 24, 1);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    color: gray;
+    font-size: 17px;
+}
+
+.nav-grid li{
+    background-color: rgba(8, 6, 24, 1);;
+}
+
+.home {
+    color: white;
+}
+
+/* hero section */
+
+.hero {
+    background-color: rgba(18, 8, 39, 1);
+    margin: 0px 44px;
+    height: 463px;
+    width: 1440px;
+}
+
+.herosec {
+    
+    background-color: rgba(18, 8, 39, 1);
+
+}
+
+.wel {
+    padding: 96px 0px 25px 165px;
+    color: orange;
+   background-color: rgba(18, 8, 39, 1); 
+}
+
+.hero h2 {
+
+    color: white;
+    padding: 0px 0px 20px 165px;
+    font-size: 40px;
+    background-color: rgba(18, 8, 39, 1);
+
+}
+
+.hero pre {
+
+    color: white;
+    padding: 0px 0px 20px 165px;
+    line-height: 25px;
+    background-color: rgba(18, 8, 39, 1);
+}
+
+.contact {
+
+    margin-left: 165px;
+    background-color: rgb(251, 170, 20);
+    padding: 12px 20px;
+    border-radius: 6px;
+}
+
+/* About Me */
+
+.About {
+    height: 694px;
+    width: 1440px;
+    background-color: rgba(8, 6, 24, 1);
+    margin: 0px 44px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.About img {
+
+    height: 502px;
+    width: 475px;
+    margin: 75px 25px 0px 165px;
+    border: 16px solid rgba(240, 169, 62, 1);
+    border-radius: 20px;
+}
+
+.Frame2 {
+
+    width: 509px;
+    height: 348px;
+    background-color: rgba(8, 6, 24, 1);
+}
+
+.About h3 {
+    margin: 140px 0px 30px 0px;
+    font-size: 40px;
+    color: white;
+    background-color: rgba(8, 6, 24, 1);
+}
+
+.About pre {
+
+    color: white;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    background-color: rgba(8, 6, 24, 1);
+}
+
+.About button {
+    padding: 16px 24px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+/* My Services */
+
+.Service {
+
+    background: rgba(17, 24, 39, 1);
+    height: 759px;
+    width: 1440px;
+    margin: 0px 44px;
+}
+
+.Service h2 {
+
+    margin: 0px 0px 30px 165px;
+    padding-top: 95px;
+    font-size: 50px;
+    color: white;
+    background: rgba(17, 24, 39, 1);
+
+}
+
+.Service pre {
+
+    color: white;
+    margin: 0px 0px 30px 165px;
+    line-height: 25px;
+    font-size: 15px;
+    text-align: justify;
+    background: rgba(17, 24, 39, 1);
+}
+
+.Service-elem {
+    width: 1110px;
+    height: 567px;
+    background: rgba(17, 24, 39, 1);
+}
+
+.service-grid {
+
+    display: flex;
+    width: 100%;
+    margin: 0px 0px 30px 165px;
+    gap: 25px;
+    text-align: center;
+    background: rgba(17, 24, 39, 1);
+    color: white;
+
+}
+
+.service-item {
+
+    background-color: black;
+    height: 150px;
+    padding: 50px 40px;
+    border-radius: 15px;
+}
+
+.service-item h3 {
+
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.service-item p {
+
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* My portfolio */
+
+.Portfolio {
+
+    width: 1440px;
+    height: 1106px;
+    margin: 0px 44px;
+    background-color: rgba(8, 6, 24, 1)
+}
+
+.Portfoliodiv {
+
+    width: 1110px;
+    height: 1006px;
+    margin: 0px 0px 30px 165px;
+    background-color: rgba(8, 6, 24, 1)
+}
+
+.Portfolio h2 {
+
+    color: white;
+    text-align: center;
+    padding: 70px 0px 30px;
+    font-size: 50px;
+    background-color: rgba(8, 6, 24, 1)
+}
+
+.Portfolio pre {
+
+    color: rgba(156, 163, 175, 1);
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 60px;
+    background-color: rgba(8, 6, 24, 1)
+}
+
+.Portfolioimages {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1110px;
+    height: 565px;
+    background-color: rgba(8, 6, 24, 1)
+    
+}
+
+.Portfolioimages img {
+
+    border-radius: 20px;
+}
+
+.img1 {
+    padding-left: 8px;
+    padding-right: 12px;
+    /* border-radius: 30px; */
+    padding-bottom: 23px;
+    border: none;
+}
+
+.img2 {
+
+    border-radius: 12px;
+    padding-bottom: 22px;
+}
+
+.img3 {
+
+    border-radius: 12px;
+     padding-right: 12px;
+     padding-left: 8px;
+
+}
+
+.img4{
+    border-radius: 12px;
+}
+
+/* My Experiences */
+
+.Experience{
+
+    background-color: rgba(25, 29, 40, 1);
+    width: 1440px;
+    height: 714px;
+    margin: 0px 44px;
+
+}
+
+.myexp {
+
+    width: 1126px;
+    height: 600px;
+    background-color: rgba(25, 29, 40, 1);
+}
+
+.Experience h2{
+
+    margin: 0px 0px 30px 165px;
+    padding-top: 90px;
+    font-size: 40px;
+    color: white;
+    background-color: rgba(25, 29, 40, 1);
+}
+
+.Experience pre{
+
+    color: rgba(156, 163, 175, 1);
+    font-size: 15px;
+    line-height: 25px;
+    margin: 0px 0px 55px 165px;
+    background-color: rgba(25, 29, 40, 1);
+}
+
+.Experiencegrid {
+
+    display: flex;
+    margin-left: 165px;
+    gap: 19px;
+    background-color: rgba(25, 29, 40, 1);
+    border-radius: 20px;
+
+}
+
+.expgriditems {
+
+    width: 310px;
+    height: 295px;
+    border-radius:20px;
+    border: 1px;
+    /* gap: 8px; */
+    background-color: rgba(25, 29, 40, 1);
+    
+
+}
+
+.expgriditems p {
+
+    color: white;
+    padding: 32px 32px 16px 32px;
+    font-size: 18px;
+    
+}
+.expgriditems h3 {
+
+    padding: 12px 0px 0px 32px;
+    font-size: 25px;
+}
+
+.desc {
+
+    color: white;
+    padding: 0px 32px 32px 32px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left
+}
+
+/* Contact Me */
+
+.Contact {
+
+    width: 1440px;
+    height: 1062px;
+    background-color: rgba(8, 6, 24, 1);
+    margin: 0px 44px;
+    
+}
+
+
+
+.Cntct {
+    width: 685px;
+    height: 142px;
+    gap: 24px;
+    text-align: center;
+    padding: 100px 0px 32px 340px;
+    background-color: rgba(8, 6, 24, 1);
+
+    
+}
+
+.Cntct h1 {
+    color: white;
+    font-size: 40px;
+    padding-bottom: 20px;
+    background-color: rgba(8, 6, 24, 1);
+}
+
+.Cntct p {
+    line-height: 25px;
+    color: rgba(156, 163, 175, 1);
+    background-color: rgba(8, 6, 24, 1);
+}
+
+ 
+.Contactgrid{
+
+    width: 1110px;
+    height: 352px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgba(8, 6, 24, 1);
+}
+
+.address {
+    margin: 35px 0px 0px 165px;
+    text-align: left;
+    line-height: 35px;
+    color: white;
+    font-size: 17px;
+    background-color: rgba(8, 6, 24, 1);
+}
+
+.address p {
+    background-color: rgba(8, 6, 24, 1);
+}
+
+.form {
+
+    background-color: rgba(8, 6, 24, 1);
+}
+
+.form form {
+    background-color: rgba(8, 6, 24, 1);
+}
+.Nametext {
+    padding: 18px;
+    width: 350px;
+    background-color: rgba(25, 29, 40, 1);
+    margin-left: 50px;
+}
+
+.Mesgtext {
+
+    margin-left: 50px;
+    background-color: rgba(25, 29, 40, 1);
+    padding: 8px;
+}
+
+
+input::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+textarea::placeholder{
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+}
+
+
+.Formbtn {
+
+    margin-left: 50px;
+    padding: 18px;
+    border-radius: 6px;
+    background-color: orange;
+    font-weight:bold;
+}
+
+footer {
+width: 685px;
+height: 320px;
+margin-left: 365px;
+background-color: rgba(8, 6, 24, 1);
+}
+
+footer h2{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding: 70px 0px 30px 0px;
+    background-color: rgba(8, 6, 24, 1);
+}
+
+footer p {
+
+    color: rgba(156, 163, 175, 1);
+    line-height: 25px;
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: rgba(8, 6, 24, 1);
+}
+
+.footergrid center {
+    background-color: rgba(8, 6, 24, 1);
+}
+
+
